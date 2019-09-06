@@ -1,0 +1,25 @@
+//- layout/_layout.pug
+doctype html
+html(lang="en")
+  include ../partials/_stamp
+  block setting
+
+  head
+    block head
+      include ../partials/_meta
+    block fonts
+      include ../partials/_fonts
+    block styles
+      include ../partials/_styles
+    block head-js
+      //- include ../partials/_analytics
+
+  body
+    block body
+    .wrapper
+      block header
+      block content
+      block footer
+    block scripts
+      include ../partials/_scripts
+    block custom-js

@@ -1,0 +1,8 @@
+//- includes/main/_header.pug
+header
+  h1 Timero
+  //- https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+  picture.img-header
+    source(type="image/webp" srcset="images/logo-timero.webp")
+    source(type="image/png" srcset="images/logo-timero.png")
+    img(src="images/logo-timero.png" alt="Timero")

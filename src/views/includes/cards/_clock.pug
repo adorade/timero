@@ -1,0 +1,14 @@
+//- includes/cards/_clock.pug
+.card.cards
+  .card-header
+    p.mb-0.text-center#status Ready to use
+  .card-body.pt-0
+    h2#timer 25:00
+    p#pomodoros Pomodoros: #[strong 0]
+    .progress
+      .progress-bar.progress-bar-striped(role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100")
+  .card-footer.text-center
+    button.btn.btn-success.card-link#start(type="button") #[i.fas.fa-play.fa-fw] #[span.d-none.d-sm-inline Start]
+    button.btn.btn-danger.card-link#stop(type="button") #[i.fas.fa-stop.fa-fw] #[span.d-none.d-sm-inline Stop]
+    //- button.btn.btn-primary.card-link#pause(type="button") #[i.fas.fa-pause.fa-fw] #[span.d-none.d-sm-inline Pause]
+    button.btn.btn-info.card-link#volume(type="button") #[i.fas.fa-volume-up.fa-fw] #[span.d-none.d-sm-inline Volume]
