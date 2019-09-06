@@ -1,0 +1,36 @@
+//- includes/cards/_settings.pug
+.card.cards
+  .card-header
+    p.mb-0.text-center Settings
+  .card-body
+    .form-inline
+      label(for="pomodoro-select") Pomodoro
+      //- input#volume-select(type="range" min="0" max="100" value="100" step="10")
+      select.custom-select#pomodoro-select
+        option(value="20") 20 minutes
+        option(selected value="25") 25 minutes
+        option(value="30") 30 minutes
+    .form-inline
+      label(for="long-break-select") Long Break
+      //- input#volume-select(type="range" min="0" max="100" value="100" step="10")
+      select.custom-select#long-break-select
+        option(value="15") 15 minutes
+        option(value="20") 20 minutes
+        option(selected value="25") 25 minutes
+        option(value="30") 30 minutes
+    .form-inline
+      label(for="short-break-select") Short Break
+      //- input#volume-select(type="range" min="0" max="100" value="100" step="10")
+      select.custom-select#short-break-select
+        option(value="3") 3 minutes
+        option(value="4") 4 minutes
+        option(selected value="5") 5 minutes
+    .form-inline
+      label(for="audio-select") Sound
+      select.custom-select#audio-select
+        option(selected value="alarm.mp3") Alarm
+        option(value="cooko.mp3") CooKo
+        option(value="knock.mp3") Knock
+    .form-inline
+      label(for="volume-select") Volume
+      input#volume-select(type="range" min="0" max="100" value="100" step="10")

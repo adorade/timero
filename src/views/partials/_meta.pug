@@ -1,0 +1,35 @@
+//- partials/_meta.pug
+//- META
+// Required meta tags
+meta(charset="utf-8")
+meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+if title
+  title= title
+else
+  title Timero - An Pomodoro Technique App
+if description
+  meta(name="description" content= description)
+else
+  meta(name="description" content="A fresh way to save your time")
+
+//- FAVICONS
+// Favicon for Website, Andoid and iOS
+link(rel="apple-touch-icon" sizes="180x180" href="statics/icons/apple-touch-icon.png")
+link(rel="icon" type="image/png" sizes="32x32" href="statics/icons/favicon-32x32.png")
+link(rel="icon" type="image/png" sizes="194x194" href="statics/icons/favicon-194x194.png")
+link(rel="icon" type="image/png" sizes="192x192" href="statics/icons/android-chrome-192x192.png")
+link(rel="icon" type="image/png" sizes="16x16" href="statics/icons/favicon-16x16.png")
+link(rel="manifest" href="site.webmanifest")
+link(rel="mask-icon" href="statics/icons/safari-pinned-tab.svg" color="#5bbad5")
+link(rel="shortcut icon" href="statics/icons/favicon.ico")
+meta(name="msapplication-TileColor" content="#6a0303")
+meta(name="msapplication-config" content="browserconfig.xml")
+meta(name="theme-color" content="#6a0303")
+
+//- OPEN GRAPH
+// Open Graph for Social Media
+meta(property="og:title" content="Timero")
+meta(property="og:type" content="website")
+meta(property="og:image" content="https://timero.adorade.ro/images/timero-fb.png")
+meta(property="og:description" content="A fresh way to save your time")
+meta(property="og:url" content="https://timero.adorade.ro")
