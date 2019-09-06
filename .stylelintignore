@@ -1,0 +1,8 @@
+# https://stylelint.io/user-guide/configuration/#stylelintignore
+# Specific files
+# **/*.css
+# **/*.map
+# **/*.min.css
+
+# Specific folders
+dist
