@@ -3,9 +3,9 @@ name: Node CI
 
 on:
   push:
-    branches: [master, content, develop, actions]
+    branches: [master, content, develop]
   pull_request:
-    branches: [master, content, develop, actions]
+    branches: [master, content, develop]
   schedule:
   - cron: 0 2 * * 5
 
