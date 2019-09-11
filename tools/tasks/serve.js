@@ -17,7 +17,7 @@ export function serve () {
     server: {
       baseDir: dirs.dest
     },
-    port: 6979,
+    port: 6989,
     logPrefix: 'Timero',
     ui: false
   });

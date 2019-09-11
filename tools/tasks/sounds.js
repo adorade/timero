@@ -4,7 +4,7 @@
  * Licensed under MIT
  * ========================================================================== */
 
-import { src, dest, lastRun, $, bs, magenta, green, paths } from '../util';
+import { src, dest, lastRun, $, bs, magenta, green, paths, opts } from '../util';
 
 // For debugging usage:
 // .pipe($.debug({ title: 'unicorn:' }))
@@ -20,6 +20,7 @@ export function noise () {
   return src(paths.sound.src, {
     since: lastRun(noise)
   })
+    .pipe($.size(opts.size))
     .pipe(dest(paths.sound.dest))
     .pipe(bs.stream({ match: '**/*.{ogg,m4a,mp3,wav}' }));
 }
