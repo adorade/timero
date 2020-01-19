@@ -25,8 +25,8 @@ export const paths = {
   },
   images: {
     src: `${dirs.src}/images/**/*.{gif,jpg,jpeg,png,svg}`,
-    dest: `${dirs.dest}/images/`,
-    webp: `${dirs.dest}/images/**/*.{jpg,jpeg,png}`
+    webp: `${dirs.dest}/images/**/*.{jpg,jpeg,png}`,
+    dest: `${dirs.dest}/images/`
   },
   statics: {
     src: {
@@ -44,7 +44,7 @@ export const paths = {
     dest: `${dirs.dest}/sound/`
   },
   views: {
-    src: [`${dirs.src}/views/**/*.pug`, `!${dirs.src}/views/**/_*.pug`],
+    src: [ `${dirs.src}/views/**/*.pug`, '!**/_*.pug' ],
     all: `${dirs.src}/views/**/*.pug`,
     dest: `${dirs.dest}/`,
     del: `${dirs.dest}/**/*.html`
