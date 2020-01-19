@@ -4,7 +4,7 @@
  * Licensed under MIT
  * ========================================================================== */
 
-import { src, dest, lastRun, $, bs, magenta, green, paths, opts } from '../util';
+import { src, dest, lastRun, $, bs, green, magenta, paths, opts } from '../util';
 
 // For debugging usage:
 // .pipe($.debug({ title: 'unicorn:' }))
@@ -27,6 +27,7 @@ export function imagine () {
       $.imagemin.optipng(opts.images.png),
       $.imagemin.svgo(opts.images.svg)
     ], { verbose: true }))
+    // .pipe($.size(opts.size))
     .pipe(dest(paths.images.dest))
     .pipe(bs.stream({ match: '**/*.{gif,jpg,jpeg,png,svg}' }));
 }
