@@ -1,4 +1,4 @@
-[![GitHub package version](https://img.shields.io/github/package-json/v/adorade/timero.svg?color=green&logo=github)](https://github.com/adorade/timero/blob/master/package.json)
+[![GitHub package version](https://img.shields.io/github/package-json/v/adorade/timero.svg?color=green&logo=github)](https://github.com/adorade/timero/blob/main/package.json)
 [![license](https://img.shields.io/github/license/adorade/timero.svg)](https://mit-license.org)
 [![Website](https://img.shields.io/website/https/timero.adorade.ro.svg?logo=google-chrome)](https://timero.adorade.ro/)
 [![devDependencies Status](https://img.shields.io/david/dev/adorade/timero.svg)](https://david-dm.org/adorade/timero?type=dev)
