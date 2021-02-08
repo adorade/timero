@@ -2,7 +2,6 @@
 [![license](https://img.shields.io/github/license/adorade/timero.svg)](https://mit-license.org)
 [![Website](https://img.shields.io/website/https/timero.adorade.ro.svg?logo=google-chrome)](https://timero.adorade.ro/)
 [![devDependencies Status](https://img.shields.io/david/dev/adorade/timero.svg)](https://david-dm.org/adorade/timero?type=dev)
-[![Travis (.com)](https://img.shields.io/travis/com/adorade/timero?logo=travis)](https://travis-ci.com/adorade/timero)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 [![GitHub Actions status](https://github.com/adorade/timero/workflows/Node%20CI/badge.svg)](https://github.com/adorade/timero/actions)
 
