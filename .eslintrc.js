@@ -34,7 +34,27 @@ module.exports = {
     "no-multiple-empty-lines": ["error", { max: 2, maxEOF: 1, maxBOF: 1 }],
     "no-trailing-spaces": "error",
     quotes: ["error", "single", { avoidEscape: true }],
-    semi: ["error", "always"],
+    semi: ["error", "never"],
     "space-before-function-paren": "error"
-  }
-}
+  },
+  overrides: [
+    {
+      files: [
+        "gulpfile.mjs",
+        "tools/**/*.mjs",
+        ".eslintrc.js"
+      ],
+      rules: {
+        semi: ["error", "always"]
+      }
+    },
+    {
+      files: [
+        ".eslintrc.js"
+      ],
+      rules: {
+        quotes: ["error", "double"]
+      }
+    }
+  ]
+};

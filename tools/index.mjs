@@ -1,5 +1,5 @@
 /*!
- * Timero (v1.0.0): tools/index.js
+ * Timero (v1.0.0): tools/index.mjs
  * Copyright (c) 2019 Adorade (https://adorade.ro)
  * Licensed under MIT
  * ========================================================================== */
@@ -13,4 +13,4 @@ export {
   cleanSounds, noise,                                   // Sounds
   cleanPages, lintPages, pagile,                        // Pages
   serve                                                 // Serve and Watch
-} from './tasks';
+} from './tasks/index.mjs';

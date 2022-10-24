@@ -1,5 +1,5 @@
 /*!
- * Timero (v1.0.0): tools/util/config.js
+ * Timero (v1.0.0): tools/utils/config.mjs
  * Copyright (c) 2019 Adorade (https://adorade.ro)
  * Licensed under MIT
  * ========================================================================== */

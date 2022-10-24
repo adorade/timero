@@ -1,10 +1,10 @@
 /*!
- * Timero (v1.0.0): gulpfile.esm.js
+ * Timero (v1.0.0): gulpfile.mjs
  * Copyright (c) 2019 Adorade (https://adorade.ro)
  * Licensed under MIT
  * ========================================================================== */
 
-import { series } from './tools/util';
+import { series } from './tools/utils/index.mjs';
 import {
   cleanCss, lintScss, compile, minifyCss,
   cleanJs, lintEs, transpile, minifyJs,
@@ -13,7 +13,7 @@ import {
   cleanSounds, noise,
   cleanPages, lintPages, pagile,
   checks, clean, serve
-} from './tools';
+} from './tools/index.mjs';
 
 /**
  * Check dirs, paths, options and settings
