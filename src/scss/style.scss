@@ -58,26 +58,18 @@ header {
     padding: 0 1rem 1rem;
     margin: 0 1rem;
     border: none;
-    border-bottom-right-radius: .5rem;
-    border-bottom-left-radius: .5rem;
-    background-color: rgba(0, 0, 0, .2);
-
-    .nav-item {
-      margin-bottom: 0;
-    }
+    border-radius: 0 0 .5rem .5rem;
+    background-color: rgba(0 0 0 / .2);
 
     .nav-link {
       border: none;
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: .5rem;
-      border-bottom-left-radius: .5rem;
+      border-radius: 0 0 .5rem .5rem;
       color: #fff;
 
       &.active,
       &:hover {
         border: none;
-        background-color: rgba(0, 0, 0, .4);
+        background-color: rgba(0 0 0 / .4);
       }
     }
   }
@@ -100,7 +92,7 @@ header {
   min-height: 308px;
   border-width: 0;
   border-radius: .5rem;
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .12), 0 8px 8px 0 rgba(0, 0, 0, .24);
+  box-shadow: 0 0 8px 0 rgba(0 0 0 / .12), 0 8px 8px 0 rgba(0 0 0 / .24);
 
 
   @media (max-width: 320px) {
