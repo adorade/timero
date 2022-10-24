@@ -13,11 +13,11 @@ main.my-auto(role="main")
 
     nav
       .nav.nav-tabs.justify-content-center#nav-tab(role="tablist")
-        a.nav-item.nav-link.active#clock-tab(data-toggle="tab" href="#clock" role="tab" aria-controls="clock" aria-selected="true")
+        button.nav-link.active#clock-tab(data-bs-toggle="tab" data-bs-target="#clock" type="button" role="tab" aria-controls="clock" aria-selected="true")
           | #[i.fas.fa-clock.fa-fw] #[span.d-none.d-sm-inline Clock]
-        a.nav-item.nav-link#settings-tab(data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false")
+        button.nav-link#settings-tab(data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false")
           | #[i.fas.fa-cog.fa-fw] #[span.d-none.d-sm-inline Settings]
-        a.nav-item.nav-link#info-tab(data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false")
+        button.nav-link#info-tab(data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false")
           | #[i.fas.fa-info-circle.fa-fw] #[span.d-none.d-sm-inline Info]
-        a.nav-item.nav-link#contact-tab(data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false")
+        button.nav-link#contact-tab(data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false")
           | #[i.fas.fa-globe.fa-fw] #[span.d-none.d-sm-inline Contact]
