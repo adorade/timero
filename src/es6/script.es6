@@ -1,5 +1,5 @@
 //
-// Timero (v1.0.0): script.es6
+// Timero (v1.0.1): script.es6
 // A fresh way to save your time
 // ============================================================================
 

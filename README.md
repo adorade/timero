@@ -1,11 +1,11 @@
+# Timero
+
 [![GitHub package version](https://img.shields.io/github/package-json/v/adorade/timero.svg?color=green&logo=github)](https://github.com/adorade/timero/blob/main/package.json)
 [![license](https://img.shields.io/github/license/adorade/timero.svg)](https://mit-license.org)
 [![Website](https://img.shields.io/website/https/timero.adorade.ro.svg?logo=google-chrome)](https://timero.adorade.ro/)
-[![devDependencies Status](https://img.shields.io/david/dev/adorade/timero.svg)](https://david-dm.org/adorade/timero?type=dev)
+[![Depfu Status](https://img.shields.io/depfu/dependencies/github/adorade/timero)](https://depfu.com/repos/github/adorade/timero)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 [![GitHub Actions status](https://github.com/adorade/timero/workflows/Node%20CI/badge.svg)](https://github.com/adorade/timero/actions)
-
-# Timero
 
 > A fresh way to save your time
 
