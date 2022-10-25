@@ -1,6 +1,6 @@
 {
   "name": "timero",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fresh way to save your time",
   "main": "index.js",
   "repository": "https://github.com/adorade/timero",

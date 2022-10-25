@@ -1,5 +1,5 @@
 /*!
- * Timero (v1.0.0): gulpfile.mjs
+ * Timero (v1.0.1): gulpfile.mjs
  * Copyright (c) 2019-22 Adorade (https://adorade.ro)
  * Licensed under MIT
  * ========================================================================== */
